@@ -28,10 +28,10 @@ Now add it to the middleware, authentication backends and installed apps in your
     )
 
 
-AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.ModelBackend',
-    'vanila_djangocore_cas.backends.CASBackend',
-)
+    AUTHENTICATION_BACKENDS = (
+        'django.contrib.auth.backends.ModelBackend',
+        'vanila_djangocore_cas.backends.CASBackend',
+    )
 
 # Set the following required setting in settings.py:
 
