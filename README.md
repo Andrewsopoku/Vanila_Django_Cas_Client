@@ -36,6 +36,7 @@ Now add it to the middleware, authentication backends and installed apps in your
 # Set the following required setting in settings.py:
 
 Set it to the base URL of your CAS source (e.g. https://account.company.com/cas/).
+
     CAS_SERVER_URL = ""
 
     CAS_VERSION="3"
